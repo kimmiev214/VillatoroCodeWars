@@ -22,4 +22,6 @@ You can find my user profile here: https://www.codewars.com/users/kimsv214.
         <li><a href = "https://www.codewars.com/kata/57356c55867b9b7a60000bd7" target = "_blank">Basic Mathematical Operations</a></li>
         <li><a href = "https://www.codewars.com/kata/50654ddff44f800200000004" target = "_blank">Multiply</a></li>
         <li><a href = "https://www.codewars.com/kata/5ce9c1000bab0b001134f5af" target = "_blank">Quarter of the year</a></li>
+        <li><a href = "https://www.codewars.com/kata/53af2b8861023f1d88000832" target = "_blank">Are You Playing Banjo?</a></li>
+        
 </ul>
