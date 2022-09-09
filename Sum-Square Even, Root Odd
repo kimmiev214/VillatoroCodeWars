@@ -1,0 +1,15 @@
+# Awesome
+# Function takes a list of numbers and will square a number when even
+# or take the square root when odd.
+# It will return the sum of the list rounded to two decimal places.
+import math 
+def sum_square_even_root_odd(nums):
+    squared = []
+    for i in nums:
+        if i%2 == 0:
+            squared.append(i ** 2)
+        else:
+            squared.append(math.sqrt(i)) 
+    squared = sum(squared)
+    squared = '%.2f' % squared
+    return float(squared)
