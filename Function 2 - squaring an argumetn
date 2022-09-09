@@ -1,0 +1,4 @@
+# Function takes input n and outputs the square root of it
+def square(n): 
+    root = n * n
+    return root
