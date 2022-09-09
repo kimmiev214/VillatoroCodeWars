@@ -1,0 +1,4 @@
+# This function takes in list 'sheep' and counts the element 'True'
+def count_sheeps(sheep):
+    count = sheep.count(True)
+    return count
