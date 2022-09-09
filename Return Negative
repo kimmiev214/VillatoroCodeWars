@@ -1,0 +1,10 @@
+# Function takes in a number and determines whether to return it's negative,
+# a zero, or the number if already number
+def make_negative( number ):
+    if number > 0:
+        number = number * -1
+    if number == 0:
+        number = 0
+    else: 
+        number = number
+    return number
