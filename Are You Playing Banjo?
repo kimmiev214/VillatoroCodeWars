@@ -1,0 +1,30 @@
+/** 
+* @author Kim Villatoro
+* @version 01/09/2021
+* areYouPlayingBanjo method takes a String name as input
+* Using contains() and indexOf() Sring methods, the method
+* searches to find whether it contains r both lowercase and capital case
+* Then goes to find whether it is the first letter of name
+* If a persons name contains and begins with 'r' or 'R',
+* output: name + " plays Banjo"
+* Otherwise output: name + " does not play banjo"
+*/
+
+public class Banjo {
+  public static String areYouPlayingBanjo(String name) {
+    
+    while(name.contains("r") == true || name.contains("R") == true) {
+      if(name.indexOf("r") == 0 || name.indexOf("R") == 0) { 
+        name = name + " plays banjo";
+        return name;
+      }      
+      else {
+        name = name + " does not play banjo";
+        return name;
+      }
+        
+    }
+    
+    return name + " does not play banjo";
+  }
+  }
